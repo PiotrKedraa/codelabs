@@ -4,11 +4,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wprowadzenie w pole e-mail niepoprawnych danych: 
+	  1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+    2. Wprowadzenie w pole e-mail niepoprawnych danych: 
         * "@"
         * "@wp.pl"
         * "adres o liczbie znaków większej niż 63"
@@ -25,11 +22,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wprowadzenie w pole login niepoprawnych danych: 
+    1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+    2. Wprowadzenie w pole login niepoprawnych danych: 
         * login o większej liczbie znaków niż 16
         * znak "spacji"
         * znaki,symbole specjalne: "!,?,>,< itd"
@@ -43,11 +37,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wprowadzenie w pole hasło niepoprawnych danych: 
+	1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	2. Wprowadzenie w pole hasło niepoprawnych danych: 
         * hasło o liczbie znaków mniejsznej niż 8
         * hasło bez 1 wielkiej litery
         * hasło bez 1 małej litery
@@ -62,11 +53,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wprowadzenie w pole numer telefonu niepoprawnych danych: 
+	1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	2. Wprowadzenie w pole numer telefonu niepoprawnych danych: 
         * liczby cyfr innej niż 9
         * znak "spacji"
         * znaki,symbole specjalne: "!,?,>,< itd"
@@ -81,11 +69,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wprowadzenie w pole NIP niepoprawnych danych: 
+	  1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	  2. Wprowadzenie w pole NIP niepoprawnych danych: 
         * liczby cyfr innej niż 10
         * znak "spacji"
         * znaki,symbole specjalne: "!,?,>,< itd"
@@ -101,13 +86,11 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wybór kraju i podanie poprawnego numeru NIP
-    6. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
-    7. Kliknięcie "załóż konto"
+	1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	2. Wybór kółka "Konto firma"
+        3. Wybór kraju i podanie poprawnego numeru NIP
+        4. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
+        5. Kliknięcie "załóż konto"
 	Oczekiwany rezultat: Brak możliwości założenia konta. Informacja: "Musisz zaakcepotwać regulamin"
 	Autor: Piotr Kędra
   
@@ -117,12 +100,10 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Wybór kraju i podanie poprawnego numeru NIP
-    6. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
-    7. Kliknięcie "załóż konto"
+	1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	2. Wybór kółka "Konto firma"
+        3. Wybór kraju i podanie poprawnego numeru NIP
+        4. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
+    	5. Kliknięcie "załóż konto"
 	Oczekiwany rezultat: Brak możliwości założenia konta. Informacja: "Weryfikacja nie powiodła się"
 	Autor: Piotr Kędra
