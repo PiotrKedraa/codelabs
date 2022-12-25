@@ -1,0 +1,128 @@
+ID 1.1
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego e-maila
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wprowadzenie w pole e-mail niepoprawnych danych: 
+        * "@"
+        * "@wp.pl"
+        * "adres o liczbie znaków większej niż 63"
+        * znak "spacji"
+        * znaki,symbole specjalne: "!,?,>,< itd"
+        * puste pole
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia danych z GUSu, obowiązkowe pole formularza podświetlone na czerwono
+	Autor: Piotr Kędra
+  
+  
+  ID 1.2
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego loginu
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wprowadzenie w pole login niepoprawnych danych: 
+        * login o większej liczbie znaków niż 16
+        * znak "spacji"
+        * znaki,symbole specjalne: "!,?,>,< itd"
+        * polskie znaki : "ą,ę,ć...ż"
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia danych z GUSu, obowiązkowe pole formularza podświetlone na czerwono
+	Autor: Piotr Kędra
+  
+  ID 1.3
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego hasła
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wprowadzenie w pole hasło niepoprawnych danych: 
+        * hasło o liczbie znaków mniejsznej niż 8
+        * hasło bez 1 wielkiej litery
+        * hasło bez 1 małej litery
+        * hasło bez 1 cyfry
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia danych z GUSu, obowiązkowe pole formularza podświetlone na czerwono
+	Autor: Piotr Kędra
+  
+  
+  ID 1.4
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego numeru telefonu
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wprowadzenie w pole numer telefonu niepoprawnych danych: 
+        * liczby cyfr innej niż 9
+        * znak "spacji"
+        * znaki,symbole specjalne: "!,?,>,< itd"
+        * polskie znaki : "ą,ę,ć...ż"
+        * znaki inne niżcyfry
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia danych z GUSu, obowiązkowe pole formularza podświetlone na czerwono. Informacja : "Nieprawidłowy numer telefonu"
+	Autor: Piotr Kędra
+  
+  ID 1.5
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego numeru NIP
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wprowadzenie w pole NIP niepoprawnych danych: 
+        * liczby cyfr innej niż 10
+        * znak "spacji"
+        * znaki,symbole specjalne: "!,?,>,< itd"
+        * polskie znaki : "ą,ę,ć...ż"
+        * znaki inne niżcyfry
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia danych z GUSu, obowiązkowe pole formularza podświetlone na czerwono. Informacja: "Nieprawidłowy format NIPu"
+	Autor: Piotr Kędra
+  
+  
+  ID 1.6
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl bez zaznaczenia potwierdzenia checkbox z akceptacją regulaminu
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wybór kraju i podanie poprawnego numeru NIP
+    6. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
+    7. Kliknięcie "załóż konto"
+	Oczekiwany rezultat: Brak możliwości założenia konta. Informacja: "Musisz zaakcepotwać regulamin"
+	Autor: Piotr Kędra
+  
+  ID 1.7
+	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl bez zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Wybór kraju i podanie poprawnego numeru NIP
+    6. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
+    7. Kliknięcie "załóż konto"
+	Oczekiwany rezultat: Brak możliwości założenia konta. Informacja: "Weryfikacja nie powiodła się"
+	Autor: Piotr Kędra
