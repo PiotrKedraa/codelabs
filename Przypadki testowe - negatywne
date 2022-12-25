@@ -1,4 +1,21 @@
 ID 1.1
+Title: Setting up a company account at www.allegro.pl using an incorrect e-mail address
+Environment: Windows 7 and above (Chrome)
+Version: 1.0
+Prerequisites: User without an account
+Reproduction steps:
+    1. Opening the website https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+    2. Entering incorrect data into the e-mail field:
+        * "@"
+        * "@wp.pl"
+        * "address with more than 63 characters"
+        * space character
+        * characters, special symbols: "!,?,>,< etc"
+        * blank field
+Expected result: No possibility to download data from the GUS, mandatory form field highlighted in red
+Author: Piotr Kędra
+
+ID 1.1
 	Tytuł: Zakładanie konta firmowego na stronie www.allegro.pl przy użyciu nie poprawnego e-maila
 	Środowisko: Windows 7 i wyższy (Chrome)
 	Wersja: 1.0
