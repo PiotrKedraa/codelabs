@@ -1,0 +1,43 @@
+ID 1.1
+	Tytuł: Poprawne zakładanie konta firmowego na stronie www.allegro.pl
+	Środowisko: Desktop - Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail i poprwny NIP firmy.
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+	  5. Wprowadzenie poprawnych danych: e-mail, login, hasło, numer telefonu, kraj, NIP
+    6. Kliknięcie przycisku "Pobierz dane firmy"
+    7. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
+    8. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
+	  9. Kliknięcie przycisku "Załóż konto"
+	Oczekiwany rezultat: Strona z informacją "Wysłaliśmy Ci e-mail z prośbą o aktywację, sprawdź swoją pocztę".
+	Dane testowe:  
+    *email address: abc@wp.pl
+    *login: abc1
+    *hasło: Abc123!
+    *numer telefonu: 777111333
+    *kraj: Polska
+    *NIP: 5210091891
+	Autor: Piotr Kędra
+  
+  
+  ID 1.2 
+	Tytuł: Pozytywny test na obowiązkowość wypełnienia wszystkich pól podczas rejestracji
+	Środowisko: Windows 7 i wyższy (Chrome)
+	Wersja: 1.0
+	Warunki wstępne: Użytkownik nie posiadający założonego konta
+	Kroki reprodukcji: 
+	  1. Otwarcie strony https://allegro.pl/
+	  2. Kliknięcie przycisku "Moje allegro"
+    3. Kliknięcie przycisku "Zarejestruj się"
+    4. Wybór kółka "Konto firma"
+    5. Zostawienie pustych pól w formularzu i kliknięcie przycisku "Pobierz dane firmy"
+	Oczekiwany rezultat: Brak możliwości zaciągnięcia dancych z GUSu, obowiązkowe pola formularza podświetlone na czerwono
+	Autor: Piotr Kędra
+  
+  
+  
+  
