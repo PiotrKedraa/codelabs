@@ -4,15 +4,12 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta, posiadający e-mail i poprwny NIP firmy.
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-	  5. Wprowadzenie poprawnych danych: e-mail, login, hasło, numer telefonu, kraj, NIP
-    6. Kliknięcie przycisku "Pobierz dane firmy"
-    7. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
-    8. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
-	  9. Kliknięcie przycisku "Załóż konto"
+	  1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	  2. Wprowadzenie poprawnych danych: e-mail, login, hasło, numer telefonu, kraj, NIP
+          3. Kliknięcie przycisku "Pobierz dane firmy"
+    	  4. Zaznaczenie wymaganego checkbox'a "Oświadczam, że znam i akceptuję postanowienia Regulaminu Allegro"
+    	  5. Zaznaczenie pola reCAPTCHA "nie jestem robotem" i weryfikacja poprzez zazanczenie odpowiednich obrazków
+	  6. Kliknięcie przycisku "Załóż konto"
 	Oczekiwany rezultat: Strona z informacją "Wysłaliśmy Ci e-mail z prośbą o aktywację, sprawdź swoją pocztę".
 	Dane testowe:  
     *email address: abc@wp.pl
@@ -30,11 +27,8 @@ ID 1.1
 	Wersja: 1.0
 	Warunki wstępne: Użytkownik nie posiadający założonego konta
 	Kroki reprodukcji: 
-	  1. Otwarcie strony https://allegro.pl/
-	  2. Kliknięcie przycisku "Moje allegro"
-    3. Kliknięcie przycisku "Zarejestruj się"
-    4. Wybór kółka "Konto firma"
-    5. Zostawienie pustych pól w formularzu i kliknięcie przycisku "Pobierz dane firmy"
+	  1. Otwarcie strony https://allegro.pl.allegrosandbox.pl/rejestracja/konto-firmowe/nowe-konto
+	  2. Zostawienie pustych pól w formularzu i kliknięcie przycisku "Pobierz dane firmy"
 	Oczekiwany rezultat: Brak możliwości zaciągnięcia dancych z GUSu, obowiązkowe pola formularza podświetlone na czerwono
 	Autor: Piotr Kędra
   
